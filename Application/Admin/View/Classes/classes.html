@@ -1,0 +1,154 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/movie/movie" class="heading" id="movielist">电影信息列表</a></li>
+        <li><a href="__MODULE__/movie/add">添加电影信息</a></li>
+        <li><a href="__MODULE__/classes/classes" id="classeslist">电影分类管理</a></li>
+    </ul>
+</block>
+<block name="content">
+
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左边框 -->
+        <div class="left-sidebar" >  
+
+<!-- 左边内容 -->
+            <div class="row-fluid">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="title">电影分类管理</div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="container-fluid form-horizontal">
+                            <div class="control-group " >
+                                <label class="control-label" for="classes">
+                                  分类
+                                </label>
+                                <div class="controls">                            
+                                    <select id="pclasses" class="span2">  
+                                        <foreach name="pclass" item="vo">                          
+                                            <option id="pclass"value="{$vo.id}">
+                                               {$vo.cname}
+                                            </option>
+                                        </foreach>
+                                    </select>
+                                    <select name="sclass"id="sclass" class="span2 input-left-top-margins">                                   
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <form action="__CONTROLLER__/addClass"  method="post">
+                                <div class="control-group ">
+                                    <label class="control-label" >
+                                        添加父类
+                                    </label>
+                                    <div class="controls">
+                                        <input type="hidden"name="pid"value="0" >
+                                        <input type="text" name="cname"class="span4">
+                                        <input type="submit" class="btn btn-info" value="添加">
+                                    </div>
+                                </div>
+                            </form>
+                            <form action="__CONTROLLER__/addSunClass" method="post">
+                                <div class="control-group ">
+                                    <label class="control-label" >
+                                        添加子类
+                                    </label>
+                                    <div class="controls">
+                                        <select  name ="pid" class="span2"> 
+                                            <foreach name="pclass" item="vo">                           
+                                                <option value="{$vo.id}">
+                                                   {$vo.cname}
+                                                </option>
+                                            </foreach>
+                                        </select>
+                                        <input type="text" name="cname"class="span2">
+                                        <input type="submit" class="btn btn-info" value="添加"style="margin-left:7px">
+                                    </div>
+                                </div>
+                            </form>
+                            <form action="__CONTROLLER__/delClass" method="post">
+                                <div class="control-group ">
+                                <label class="control-label" >
+                                 删除父类
+                                </label>
+                                <div class="controls">                            
+                                    <select  name="id"class="span4">
+                                    <foreach name="pclass" item="vl">                            
+                                        <option value="{$vl.id}">
+                                           {$vl.cname}
+                                        </option>
+                                    </foreach>                                  
+                                    </select>
+                                     <input type="submit" class="btn btn-info" value="删除">
+                                </div>
+                            </div>
+                            </form>
+                            <form action="__CONTROLLER__/delClass"method="post">
+                                <div class="control-group ">
+                                <label class="control-label" >
+                                 删除子类
+                                </label>
+                                <div class="controls">                            
+                                    <select   name="id" class="span4">
+                                        <foreach name="sclass" item="vo">
+                                            <option value="{$vo.id}">
+                                                {$vo.cname}
+                                            </option>
+                                        </foreach>                         
+                                    </select>
+                                     <input type="submit" class="btn btn-info" value="删除">
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="script">
+    <script src='__PUBLIC__/admin/js/jquery.js'></script>
+    <script src='__PUBLIC__/admin/js/jquery.uploadify.min.js'></script>
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#movie').attr("class","selected");
+        $('#movielist').removeAttr("class");
+        $('#classeslist').attr("class","heading");
+    </script>
+    <script>
+
+// 查询子类
+        $(document).ready(function(){
+            $('option').eq(0).attr('selected',true);
+            $.post('sclass',{'pid':1},function(data){ 
+                     var str="";
+                    $.each(data,function(i,j){
+                        str+="<option>"+j.cname+"</option>";
+                    })
+                    $("#sclass").html(str);
+                },"json");   
+
+
+        })
+
+// 查询子类
+        $('#pclasses option').click(function(){
+                var pid=$(this).val();
+                var data={'pid':pid};
+                $.post('sclass',data,function(data){ 
+                     var str="";
+                    $.each(data,function(i,j){
+                        str+="<option>"+j.cname+"</option>";
+                    })
+                    $("#sclass").html(str);
+                },"json");     
+        })
+       
+    </script>
+ </block>

@@ -1,0 +1,373 @@
+
+.bt_green {
+    background-color: #44a152;
+    background-image: linear-gradient(to bottom, #6cf085, #44a152);
+    border: 1px solid #44a152;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px 10px;
+}
+.bt_green:hover {
+    border: 1px solid #5dbb6b;
+}
+.bt_green:active {
+    background: none repeat scroll 0 0 #44a152;
+}
+.bigbt_green {
+    background-color: #84ef86;
+    background-image: -moz-linear-gradient(center top , #84ef86, #59a455);
+    border: 2px solid #76ca7f;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+}
+.bigbt_green:hover {
+    opacity: 0.9;
+}
+.bigbt_gray {
+    background: url("__PUBLIC__/home/images/mytickets/bt_gray2.gif") repeat scroll 0 0 #fdfdfd;
+    border: 0 none;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    line-height: 40px;
+    margin: 5px auto;
+    width: 310px;
+}
+.bigbt_gray:hover {
+    opacity: 0.9;
+}
+.bigbt_blue {
+    background: url("__PUBLIC__/home/images/mytickets/bt_blue2.gif") repeat scroll 0 0 #fff;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    width: 310px;
+}
+.bigbt_blue:hover {
+    opacity: 0.9;
+}
+.bt_dis, .bt_dis:hover {
+    cursor: default;
+    opacity: 0.4;
+}
+.bigbt_gray .arr {
+    border-color: #bbb transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 5px;
+    display: inline-block;
+    float: right;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 18px 20px 0 0;
+    vertical-align: middle;
+    width: 0;
+}
+.comb_bt {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 280px;
+}
+.comb_bt .l {
+    float: left;
+    text-align: center;
+    width: 223px;
+}
+.comb_bt .l img {
+    margin-top: 5px;
+}
+.comb_bt .r {
+    float: right;
+    width: 50px;
+}
+.bank_choose strong {
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    width: 230px;
+}
+.btn_normal, .btn_primary, .btn_dis {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 110px;
+}
+.btn_normal:hover, .btn_primary:hover {
+    opacity: 0.8;
+}
+.btn_normal {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    border: 1px solid #e6e6e6;
+    color: #333;
+}
+.btn_primary {
+    background-color: #0a9ee5;
+    background-image: linear-gradient(to bottom, #0a9ee5, #0078c8);
+    border: 1px solid #0075c2;
+    color: #fff;
+}
+.btn_dis {
+    background-color: #aaa;
+    background-image: linear-gradient(to bottom, #aaa, #777);
+    border: 1px solid #666;
+    color: #fff;
+    cursor: default;
+}
+.ticket_list {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.ticket_list th {
+    padding: 7px 5px;
+}
+.ticket_list td {
+    padding: 5px;
+}
+.ticket_list th {
+    border-bottom: 1px solid #d0d0d0;
+    color: #999;
+}
+.ticket_list td {
+    border-bottom: 1px dashed #ddd;
+    color: #333;
+}
+.ticket_list td.gray {
+    background: none repeat scroll 0 0 #fafafa;
+}
+.ticket_list td span {
+    padding: 2px 4px;
+}
+.ticket_list td span.hl {
+    background: none repeat scroll 0 0 #faf755;
+}
+.pop {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px 0 #ddd;
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 30;
+}
+.pop .wp {
+    padding: 10px 20px;
+}
+.pop p {
+    margin: 5px 0;
+}
+.pop p.tip {
+    color: #aaa;
+}
+.pop .txt {
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding: 3px;
+}
+.pop .op {
+    margin-top: 10px;
+    text-align: center;
+}
+.bank_ico {
+    border: 1px solid #ddd;
+    display: inline-block;
+    height: 34px;
+    width: 120px;
+}
+#choose_bank {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #aaa;
+    display: none;
+    padding: 10px 30px 20px 44px;
+    position: absolute;
+    width: 580px;
+    z-index: 101;
+}
+#pay_area {
+    display: none;
+}
+#choose_bank p {
+    margin: 0 5px;
+    position: relative;
+    right: -20px;
+    text-align: right;
+}
+#choose_bank h4 {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    color: #111;
+    text-align: left;
+}
+#choose_bank ul {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#choose_bank ul.bank {
+    height: 102px;
+}
+#choose_bank li {
+    border: 3px solid #fff;
+    display: block;
+    float: left;
+    height: 36px;
+    margin: 0 14px 9px 0;
+    width: 122px;
+}
+#choose_bank li:hover {
+    border: 3px solid #369;
+}
+#choose_bank li:hover a {
+    border: 1px solid #fff;
+}
+#choose_bank li.hide {
+    display: none;
+}
+#choose_bank li a:link, #choose_bank li a:visited, #choose_bank li a:hover, #choose_bank li a:active {
+    background-color: #fff;
+}
+#choose_bank li.more_bank {
+    height: 26px;
+    padding-top: 8px;
+    text-align: left;
+}
+#choose_bank li.more_bank a:link, #choose_bank li.more_bank a:visited, #choose_bank li.more_bank a:hover, #choose_bank li.more_bank a:active {
+    border: 1px solid #fff;
+    color: #369;
+}
+#choose_bank li.more_bank:hover {
+    border: 3px solid #fff;
+}
+#choose_bank li.more_bank a b {
+    border-color: #369 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: middle;
+    width: 0;
+}
+#choose_bank li label {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 3px 0;
+}
+#choose_bank li label.ck {
+    border: 1px solid #f00;
+}
+#choose_bank .bigbt_green {
+    border-width: 1px;
+    font-size: 16px;
+    height: 40px;
+    margin: 20px auto;
+    width: 260px;
+}
+.popup {
+    animation: 0.3s ease 0s normal none 1 popme;
+}
+@keyframes popme {
+0% {
+    opacity: 0;
+    transform: scale(0.1);
+}
+100% {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+.grid-16-8 .article {
+    float: none;
+    padding-right: 0;
+    width: 100%;
+}
+#content h1 {
+    display: none;
+}
+#content #db-usr-profile h1 {
+    display: block;
+}
+#help_link {
+    text-align: right;
+}
+#sms p {
+    margin: 10px 0;
+}
+#send_sms {
+    font-size: 13px;
+    padding: 2px 3px 1px;
+}
+#new_phone, #new_passwd {
+    display: none;
+}
+.gray {
+    color: #999;
+}
+.red {
+    color: #f00;
+}
+#phone_err {
+    display: none;
+}
+.ell {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75px;
+}
+#left{
+    width:960px;
+}
+ul{
+    list-style: none;
+}
+.navlist {
+
+    float:left;
+    margin-right: 20px;
+}
+table{
+    font-size: 13px;
+    font-weight: normal;
+}
+.info{
+    float:left;
+    width:550px;
+    margin-left: 10px;
+
+}
+.info h1{
+    padding-top: 0px;
+
+}
+.article h2{
+ margin-top: 40px;
+ font-size: 15px;
+}
+.pic{
+    float:left;
+}
+#right{
+    height:10px;
+}
+.new_user{
+    font-size: 13px;
+}

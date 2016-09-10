@@ -1,0 +1,79 @@
+.umassage{
+	width:590px;
+	float:left;
+	font-size:12px;
+	color:#3377AA;
+	margin-top:15px;
+}
+.umassage span:first-child{
+	width:40px;
+	height:40px;
+	float:left;
+}
+.review{
+	width:590px;
+	float:left;
+	margin-top:15px;
+}
+.grades{
+	width:590px;
+	float:right;
+	margin-top:40px;
+}
+.grades span:last-child{
+	float:right;
+}
+.division{
+	clear:both;
+	border-bottom:1px dashed #cdcdcd;
+	margin-top:50px;
+}
+.replie{
+	height:20px;
+	margin-top:20px;
+	background:#F0F3F5;
+}
+.replie span{
+	font-size:12px;
+}
+.l-content{
+	width:590px;
+	float:left;
+}
+.r-content{
+	float:left;
+	width:590px;
+	margin:10px auto 20px auto;
+}
+.btn-site{
+	float:left;
+	font-size:12px;	
+	height:20px;
+	width:590px;
+}
+.btn-site button{
+	float:right;
+	margin-right:50px;
+}
+textarea{
+	border:1px solid #ccc;
+	font-size:14px;
+	padding:3px;
+	font-family;
+	overflow:auto;
+	resize:none;
+}
+.text button{
+	margin-bottom:20px;
+}
+.page{
+     float:left;
+     margin:20px auto 20px auto;
+     width:610px;
+     text-align:center; 
+}
+.right-content{
+	font-size:12px;
+	color:#999999;
+	margin:20px auto 60px auto;
+}

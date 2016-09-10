@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css"href="__PUBLIC__/home/css/bootstrap.css">
+	<link rel="stylesheet" href="__PUBLIC__/home/css/header.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<div id="top-nav">
+		<div class="reglog">
+			<a href="">登录</a>&nbsp&nbsp&nbsp
+			<a href="">注册</a>
+		</div>
+	</div>
+	<div class="logoSerach">
+		<div id="logo">
+			<a href="#">	<img src="__PUBLIC__/home/images/headerimgs/logo.jpg" alt="" class="img-responsive" ></a>
+		</div>
+		<div  id="search"class="input-group">
+			<label class="sr-only" for="uid">serach</label>
+			<input type="search" class="form-control img-responsive" id="uid" placeholder="电影,影院">
+		</div>
+		<div id="searchbtn">
+			<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>
+		</div>		
+	</div>
+	<div class="row"id="nav">		
+		<ul class="list-unstyled list-inline" id="navlist">
+			<li class="navlist"><a href="">影讯&购票</a></li>
+			<li class="navlist"><a href="">选电影<img src="__PUBLIC__/home/images/headerimgs/egg.gif" alt=""width="17"height="20"></a></li>
+			<li class="navlist"><a href="">分类</a></li>
+			<li class="navlist"><a href="">影评</a></li>
+			<li class="navlist"><a href="">问答</a></li>
+		</ul>
+	</div>
+</header>
+<block name="regedit"></block>
+<block name="login"></block>
+</body>
+</html>

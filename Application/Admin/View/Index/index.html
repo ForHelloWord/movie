@@ -1,0 +1,124 @@
+<extend name="Public:base" />
+
+<!-- 引入副导航 -->
+<block name="sub-nav">
+    <ul>
+         <li><a href="" class="heading">工作日历</a></li>
+    </ul>
+</block>
+
+<!-- 主体内容 -->
+<block name="content">
+
+<!-- 引入CSS文件 -->
+    <link href="__PUBLIC__/admin/css/fullcalendar.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='__PUBLIC__/admin/css/theme.css' />
+
+<!-- 主体框架 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左侧框架 -->
+        <div class="left-sidebar">
+
+<!--左侧日历  -->
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget no-margin">
+                        <div class="widget-header">
+                            <div class="title">工作日历</div>
+                        </div>
+                        <div class="widget-body">
+                            <div id='calendar'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+<!--右侧暂时空  -->
+        <div class="right-sidebar">
+        
+        </div>	
+    </div>   
+</block>
+<block name="script">
+    <script src="__PUBLIC__/admin/js/fullcalendar.js"></script>
+    <script src="__PUBLIC__/admin/js/jquery.scrollUp.js"></script>
+    <script src="__PUBLIC__/admin/js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var date = new Date();
+            var d = date.getDate();
+            var m = date.getMonth();
+            var y = date.getFullYear();
+            calendar = $('#calendar').fullCalendar({
+            theme: true,
+            selectable: true,
+            selectHelper: true,
+            select: function (start, end, allDay) {
+            var title = prompt('Event Title:');
+            
+            if (title) {
+                calendar.fullCalendar('renderEvent', {
+                title: title,
+                start: start,
+                end: end,
+                allDay: allDay
+                },true // make the event "stick"
+                );}calendar.fullCalendar('unselect');
+        }, header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },editable: true,
+          
+            events: [{
+            title: 'All Day Event',
+            start: new Date(y, m, 1)
+            }, {
+            title: 'Long',
+            start: new Date(y, m, d - 5),
+            end: new Date(y, m, d - 2)
+            }, {
+            id: 999,
+            title: 'Repeating Event',
+            start: new Date(y, m, d - 3, 16, 0),
+            allDay: false
+            }, {
+            id: 999,
+            title: 'Repeating Event',
+            start: new Date(y, m, d + 4, 16, 0),
+            allDay: false
+            }, {
+            title: 'Meeting',
+            start: new Date(y, m, d, 10, 30),
+            allDay: false
+            }, {
+            title: 'Lunch',
+            start: new Date(y, m, d, 12, 0),
+            end: new Date(y, m, d, 14, 0),
+            allDay: false
+            }, {
+            title: 'Birthday Party',
+            start: new Date(y, m, d + 1, 19, 0),
+            end: new Date(y, m, d + 1, 22, 30),
+            allDay: false
+            }]
+        });
+      });
+      //ScrollUp
+      $(function () {
+            $.scrollUp({
+                scrollName: 'scrollUp', // Element ID
+                topDistance: '300', // Distance from top before showing element (px)
+                topSpeed: 300, // Speed back to top (ms)
+                animation: 'fade', // Fade, slide, none
+                animationInSpeed: 400, // Animation in speed (ms)
+                animationOutSpeed: 400, // Animation out speed (ms)
+                scrollText: 'Scroll to top', // Text for element
+                activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            });
+        });
+
+      $('a').tooltip('hide');
+    </script>
+</block>

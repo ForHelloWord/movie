@@ -1,0 +1,60 @@
+.actfromfri .event_long{
+    width:65%;
+}
+#album{
+    overflow:hidden;width:100%;
+}
+div.full-addr {
+    color: #999; margin-bottom: 5px; 
+}
+div#addr-side { 
+    margin-top: 15px; 
+}
+a.lnk-add-pre,a.lnk-add-pre:hover { 
+    color: #fff; 
+    background: none; 
+}
+div.full-addr { 
+    color: #999; 
+    margin-bottom: 5px; 
+}
+div#addr-side {
+    margin-top: 15px; 
+}
+.movie-site-icon .title{
+    background:url(__PUBLIC__/home/images/cinemas/lc_cinema.png) no-repeat 12px 4px;
+}
+.wpa {
+    margin-top:20px;
+}
+
+/* cinema intro */
+.main .bd h2 {
+    background-color:#F8F8F8;
+    font-weight:700;
+    height:24px;
+    line-height:24px;
+    padding-left:10px;
+    margin:30px 0 10px;
+}
+.main .bd p {
+    font-size:12px;
+    line-height:21px;
+    padding-left:10px;
+}
+.login {
+    float: right;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    color:#F1F1EC;
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+.login a {
+    color: #ededed;
+    margin-left: 20px;
+}

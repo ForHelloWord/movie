@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><block name="title"></block></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- 引入bootscript样式 -->
+	<link rel="stylesheet" type="text/css"href="__PUBLIC__/home/css/bootstrap.css">
+	<link rel="stylesheet" href="__PUBLIC__/home/css/users/users.css">
+
+	<!-- 引入jquery -->
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/home/js/jquery.js"></script>
+	<block name="top-script"></block>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+<block name="top-nav"></block>
+	<!-- logo图片 -->
+		<div class="top-logo">
+			<a href="__MODULE__/Index">
+				<img src="__PUBLIC__/home/images/users/userlogo.jpg" alt="">
+			</a>
+		</div>
+	</header>
+	<main>
+
+	<!-- 内容主体部分 -->
+		<div id="content">
+
+	<!-- 标题 -->
+			<h1><block name="art-title"></block></h1>
+			<div id="content-left">
+
+	<!--注册和登录的表单部分  -->
+				<block name="form"></block>
+			</div>		
+			<div id="content-right">
+				<block name="right">
+					
+				</block>
+			</div>
+		</div>
+	</main>
+	<!-- 主体部分结束 -->
+
+	<!-- 页脚部分 -->
+	<footer>
+		<span class="copyright">© 2005－2014 douban.com, all rights reserved </span>
+		<span class="introduction">
+			<a href="">关于豆瓣</a>·
+			<a href="">在豆瓣工作</a>.
+			<a href="">联系我们</a>.
+			<a href="">免责声明</a>.
+			<a href="">帮助中心</a>.
+			<a href="">开发者</a>.
+			<a href="">移动应用</a>.
+			<a href="">豆瓣广告</a>
+		</span>
+	</footer>
+
+	<!-- 页脚部分结束 -->
+</body>
+
+	<!-- 引入js文件 -->
+<block name="bottom-script"></block>
+
+</html>

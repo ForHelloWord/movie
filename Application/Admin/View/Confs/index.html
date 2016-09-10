@@ -1,0 +1,128 @@
+<extend name="Public:base" />
+
+<!-- 副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/confs/confs" class="heading"id="userslist">网站配置</a></li>
+    </ul>
+</block>
+
+<!-- 主体内容 -->
+<block name="content">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/uploadify.css">
+    <div class="dashboard-wrapper">
+
+<!-- 左侧框架 -->
+        <div class="left-sidebar"> 
+            <div class="row-fluid">
+                <div class="widget no-margin">
+                    <div class="widget-header">
+                        <div class="title">
+                                网站配置
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+
+<!-- Logo -->
+                                <div class="span3">
+                                    <div class="thumbnail">
+                                        <div id="imgs" style="height:35px;width:130px;">
+                                            <img  src="__PUBLIC__/admin/img/logo.png" style='height:27px;width:115px;'>
+                                        </div>
+                                        <div>
+                                            <input id="file_upload" name="file_upload" type="file" multiple="true" value="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+<!-- 网站配置信息 -->
+                                <div class="span9">
+                                    <form class="form-horizontal" method="post" action="__CONTROLLER__/update">
+                                        <h5>网站配置信息</h5><hr>
+                                        <div class="control-group">
+                                            <label class="control-label">网站名称</label>
+                                            <div class="controls">
+                                                <span class="btn btn-info" disabled>
+                                                    豆瓣电影
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">关键字</label>
+                                            <div class="controls">
+                                                <input type="text"name="keywords"value="{$confs.keywords}" >
+                                            </div>
+                                        </div>
+                                         <div class="control-group">
+                                            <label class="control-label">
+                                                网站版权
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="icp"value="{$confs.icp}">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                关闭网站                     
+                                            </label>
+                                            <div class="controls"style="font-size:15px">
+                                                <label class="radio inline">
+                                                    <input type="radio" name="state" id="inlineRadioA" value="1"<eq name="confs.state" value="1">checked</eq>>&nbsp是
+                                                </label>
+                                                <label class="radio inline">
+                                                    <input type="radio" name="state" id="inlineRadioA" style="margin-left:30px" value="0" <eq name="confs.state" value="0">checked</eq>>&nbsp否
+                                                </label>
+                                            </div>
+                                        </div> 
+
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                网站描述
+                                            </label>
+                                            <div class="controls">
+                                                <textarea name="description" id="" >{$confs.description}</textarea>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="logo" id="hic">
+                                        <input type="hidden" name="id" value="1">
+                                        <div class="controls" style="margin-top:50px;">
+                                            <button type="submit" class="btn btn-info">
+                                                    保存
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+</blcok>
+
+<!-- js控制导航 -->
+<block name="script">
+    <script src='__PUBLIC__/admin/js/jquery.js'></script>
+    <script src='__PUBLIC__/admin/js/jquery.uploadify.min.js'></script>
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#confs').attr("class","selected");
+    </script>
+<!-- 上传logo -->
+    <script>
+        var img = '';
+        $('#file_upload').uploadify({
+                'swf'      : '__PUBLIC__/admin/css/uploadify.swf',
+                'uploader' : '{:U("Confs/upload")}',
+                'buttonText' : '上传LOGO',
+                'onUploadSuccess' : function(file, data, response) {
+                $('#hic').val(data);
+                 img = "<img style='height:27px;width:115px;' src='__PUBLIC__/upload/photos/"+data+"'id='hic'>";
+                $('#imgs').html(img);
+                $('#images').val(data);
+            }
+        });
+    </script>
+</block>

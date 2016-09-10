@@ -1,0 +1,341 @@
+/*标题部分*/
+#change{
+    font-size:12px;
+    font-weight:normal;
+}
+#second-title{
+    color: #494949;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: inherit;
+    word-wrap: break-word;
+}
+
+/*横幅*/
+.banner{
+    margin-top:20px;
+}
+.space{
+    border-bottom: solid 1px #EEEEEE;
+}
+
+/*正在上映部分*/
+.mod-hd{
+    margin-top:25px;
+}
+.mod-bd{
+    margin-top: 15px
+}
+.list-item{
+    width:128px;
+    height:266px;
+    margin:0 10px 15px 10px;
+    float:left;
+}
+.poster img{
+    width:128px;
+    height:182px;
+}
+.stitle{
+    margin-top:10px;
+    text-align: center;
+}
+.stitle a{
+    color:#333333;
+}
+.new-show{
+    background: url("../../images/tickets/new_release_icon.png") no-repeat scroll left 1px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 24px;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin: 3px 0 0 3px;
+    padding-right: 13px;
+    vertical-align: top;
+    width: 13px;
+    word-spacing: normal;
+}
+
+
+/*评分部分*/
+.list-item .srating{
+    text-align:center;
+    line-height: 14px;
+}
+.list-item .srating span {
+    color: #e82100;
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.allstar50, .allstar50, .allstar45, .allstar40, .allstar35, .allstar30, .allstar25, .allstar20, .allstar15, .allstar10, .allstar05, .allstar00 {
+    background: url("../../images/tickets/midstars.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 11px;
+    margin: 0 3px 7px 0;
+    overflow: hidden;
+    width: 55px;
+}
+.allstar50 {
+    background-position: 0 0;
+}
+.allstar45 {
+    background-position: 0 -11px;
+}
+.allstar40 {
+    background-position: 0 -22px;
+}
+.allstar35 {
+    background-position: 0 -33px;
+}
+.allstar30 {
+    background-position: 0 -44px;
+}
+.allstar25 {
+    background-position: 0 -55px;
+}
+.allstar20 {
+    background-position: 0 -66px;
+}
+.allstar15 {
+    background-position: 0 -77px;
+}
+.allstar10 {
+    background-position: 0 -88px;
+}
+.allstar05 {
+    background-position: 0 -99px;
+}
+.allstar0 {
+    background-position: 0 -110px;
+}
+
+/*购买按钮*/
+.sbtn{
+    clear:both;
+}
+.sbtn a{
+    display:block;
+    height:24px;
+    width:106px;
+    line-height:24px;
+    background: -moz-linear-gradient(center top , #f3f3f3, #ececec) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    color: #494949;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    font-size: 12px;
+}
+.sbtn a:hover{
+    background: none repeat scroll 0 0 #ebebeb;
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+
+/*显示更多*/
+.more{
+    background-color: #f5f5f5;
+    color: #369;
+    cursor: pointer;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 32px;
+    text-align: center;
+    clear:both;
+}
+.more:hover {
+    background-color: #eee;
+}
+h2{
+    color: #111;
+    font: 15px/150% Arial,Helvetica,sans-serif;
+    margin: 0 0 12px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}   
+
+.mod-hd h2{
+    line-height: 20px;
+}
+
+h2 a{
+    font-size:12px;
+    margin-left:10px;
+}
+
+.list-item .release-date {
+    color: #aaa;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*买票向导*/
+.ticket-guide{
+    margin-bottom: 45px;
+}
+
+
+/*右侧*/
+
+
+/*我的电影票*/
+#mine-tuan {
+    background-color: #e3ebec;
+    height: 43px;
+    margin-bottom: 14px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+#mine-tuan p {
+    height: 43px;
+    line-height: 43px;
+    padding-left:20px;
+}
+
+/*排行榜*/
+.rank {
+    margin: 20px 0 36px;
+}
+.rank h2 {
+    margin: 0;
+}
+.rank h2 span {
+    color: #666;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.rank h3 {
+    font-size: 13px;
+}
+.rank .chart-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 5px;
+}
+.rank .active {
+    background-color: #fafafa;
+}
+.rank .order {
+    color: #aaa;
+    margin-right: 10px;
+    line-height: 15px;
+}
+.rank .box-office {
+    color: #aaa;
+    float: right;
+    font-size: 13px;
+    margin-top: 1px;
+}
+.rank .mod-ft {
+    color: #aaa;
+    margin-top: 10px;
+    font-size:13px;
+}
+.rank .active .box-office {
+    display: none;
+}
+.rank span {
+    color: #e82100;
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: top;
+    word-spacing: normal;
+    line-height: 18px;
+}
+.rank .rating-star{
+    margin-top:3px;
+}
+.chart-item .mod-bd {
+    display: none;
+}
+.rank .mod-bd{
+    margin-top:0px;
+}
+.rank .mod-hd{
+    margin:4px 0 0 0;
+}
+.rank .mod-hd h3{
+    margin:1px 0 4px 0;
+}
+.ticket-btn{
+    margin-top: -12px
+}
+.chart-item .mod-bd .sbtn {
+    background: -moz-linear-gradient(center top , #f3f3f3, #ececec) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    color: #494949;
+    display: block;
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    font-size:13px;
+}
+.list-item .sbtn a:hover, .chart-item .mod-bd .sbtn:hover {
+    background: none repeat scroll 0 0 #ebebeb;
+}
+.chart-item .mod-bd div{
+    color: #aaa;
+    font-size: 13px;
+    padding-left: 21px;
+}
+.rank .srating{
+    margin-top:7px;
+}
+.rank .toprice{
+    margin-top:1px;
+}
+.chart-item .mod-bd .subject-rate {
+    color: #e82100;
+}
+.chart-item .mod-bd em {
+    font-size: 15px;
+}
+
+/*合作院线*/
+#circuit ul {
+    letter-spacing: -0.31em;
+    margin-left: -26px;
+    list-style: none;
+}
+#circuit li {
+    border: 1px solid #eee;
+    display: inline-block;
+    height: 65px;
+    letter-spacing: normal;
+    margin: 0 0 20px 25px;
+    vertical-align: top;
+    width: 84px;
+    word-spacing: normal;
+}
+#circuit li img {
+    height: 65px;
+    width: 84px;
+}
+#contact-and-cooperation, #circuit, .mobile-app-entrance {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+/*联系我们*/
+#contact-and-cooperation li {
+    line-height: 20px;
+}
+#contact-and-cooperation .mail {
+    width: 150px;
+    margin-left:0px;
+}
+#contact-and-cooperation .mail img {
+    float: right;
+    margin-top: 3px;
+    width: 111px;
+}

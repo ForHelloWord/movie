@@ -1,0 +1,115 @@
+<extend name="Public:base" />
+
+<!-- 副导航 -->
+<block name="sub-nav">
+</block>
+
+<!-- 主体内容 -->
+<block name="content">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/uploadify.css">
+    <div class="dashboard-wrapper">
+
+<!-- 左侧框架 -->
+        <div class="left-sidebar">
+            <div class="row-fluid">
+                <div class="widget no-margin">
+                    <div class="widget-header">
+                        <div class="title">
+                            修改友情链接
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+
+<!-- 头像 -->
+                                <div class="span3">
+                                    <div class="thumbnail">
+                                        <div id="imgs">
+                                            <img  src="__PUBLIC__/upload/images/{$editlink.logo}" style='height:151px;width:132px;'>
+                                        </div>
+                                        <div>
+                                            <input id="file_upload" name="file_upload" type="file" multiple="true" value="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+<!-- 修改友链表单 -->
+                                <div class="span9">
+                                    <form class="form-horizontal" method="post" action="__CONTROLLER__/update">
+                                        <h5>修改友链信息</h5><hr>
+                                        <div class="control-group">
+                                            <label class="control-label">网站名称</label>
+                                            <div class="controls">
+                                                <input type="text"name="linkname"value="{$editlink.linkname}" >
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                网站地址
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text"name="url" value="{$editlink.url}">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                排序
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="orderno">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                类型
+                                            </label>
+                                            <div class="controls">
+                                                <select name="type">
+                                                    <option value="1"<eq name="flinks.orderno" value="1">selected</eq>>显示</option>
+                                                    <option value="2"<eq name="flinks.orderno" value="2">selected</eq>>不显示</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="logo" id="hic">
+                                        <input type="hidden" name="id"value="{$editlink.id}">
+                                        <div class="controls" style="margin-top:50px;">
+                                            <button type="submit" class="btn btn-info">
+                                                保存
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </blcok>
+
+<!-- js控制导航 -->
+        <block name="script">
+            <script src='__PUBLIC__/admin/js/jquery.js'></script>
+            <script src='__PUBLIC__/admin/js/jquery.uploadify.min.js'></script>
+            <script type="text/javascript">
+                $('#index').removeAttr("class");
+                $('#link').attr("class","selected");
+            </script>
+
+<!-- 头像上传 -->
+            <script>
+                var img = '';
+                $('#file_upload').uploadify({
+                    'swf'      : '__PUBLIC__/admin/css/uploadify.swf',
+                    'uploader' : '{:U("Flinks/upload")}',
+                    'buttonText' : '加入LOGO',
+                    'onUploadSuccess' : function(file, data, response) {
+                        $('#hic').val(data);
+                        img = "<img style='height:151px;width:132px;' src='__PUBLIC__/upload/images/"+data+"'id='hic'>";
+                        $('#imgs').html(img);
+                        $('#images').val(data);
+                    }
+                });
+            </script>
+        </block>

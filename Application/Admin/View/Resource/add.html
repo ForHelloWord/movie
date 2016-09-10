@@ -1,0 +1,177 @@
+<extend name="Public:base" />
+
+<!-- 副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/Resource/showList" class="heading" id="movielist">影片资源列表</a></li>
+        <li><a href="__MODULE__/Resource/add" id="addlist">添加影片资源</a></li>
+       <!--  <li><a href="__MODULE__/classes/classes">电影分类管理</a></li> -->
+    </ul>
+</block>
+
+<!-- 主体内容 -->
+<block name="content">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/uploadify.css">
+    <div class="dashboard-wrapper">
+
+<!-- 左侧框架 -->
+        <div class="left-sidebar"> 
+            <div class="row-fluid">
+                <div class="widget no-margin">
+                    <div class="widget-header">
+                        <div class="title">
+                                添加影片资源
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+
+<!-- 海报 <-->              
+                                <!-- <div class="span3">
+                                    <div class="thumbnail">
+                                        <div id="imgs">
+                                            <img  src="__PUBLIC__/admin/img/photo.jpg" style='height:151px;width:132px;'>
+                                        </div>
+                                        <div>
+                                            <input id="file_upload" name="file_upload" type="file" multiple="true" value="" />
+                                        </div>
+                                    </div>
+                                </div> -->
+
+<!-- 添加用户表单 -->
+                                <div class="span9">
+                                    <form class="form-horizontal" method="post" action="__CONTROLLER__/addOk" >
+                                        <h5>填写影片资源信息</h5><hr>
+                                        <div class="control-group">
+                                            <label class="control-label">影片资源名称</label>
+                                            <div class="controls">
+                                                <input type="text" name="rname"required>
+                                            </div>
+                                        </div>
+                                        <!--<div class="control-group">
+                                            <label class="control-label">影片资源路径</label>
+                                            <div class="controls">
+                                                <input type="text"name="ename"required >
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                类型
+                                            </label>
+                                            <div class="controls">      
+                                                <input type="text"name="type"required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                上映时间
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text"name="showtime"required>
+                                            </div>
+                                        </div>
+                                         <div class="control-group">
+                                            <label class="control-label">
+                                                导演
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="director"required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                主演
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="actor"required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                制片国家
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="country">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                片长
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="time">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                语言                     
+                                            </label>
+                                            <div class="controls">
+                                                <input type="text" name="language">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                剧情介绍                    
+                                            </label>
+                                            <div class="controls">
+                                                <textarea name="intro"></textarea>
+                                            </div>
+                                        </div>--> 
+                                        <div class="control-group">
+                                            <label class="control-label">
+                                                影片资源路径                     
+                                            </label>
+                                            <div class="controls"style="font-size:15px">
+                                            <label class="radio inline">
+                                                <input type="radio" name="rpath" id="inlineRadioA"value="1" checked="checked">&nbsp默认
+                                            </label>
+                                            <!-- <label class="radio inline">
+                                                <input type="radio" name="hot" id="inlineRadioA" style="margin-left:30px" value="0">&nbsp否
+                                            </label> -->
+                                            </div> 
+                                        </div>                          
+                                        <!-- <input type="hidden" name="poster" id="hic"> -->
+                                        <div class="controls" style="margin-top:50px;">
+                                            <button type="submit" class="btn btn-info">
+                                                    保存
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+</blcok>
+
+<!-- js控制导航 -->
+<block name="script">
+    <script src='__PUBLIC__/admin/js/jquery.js'></script>
+    <script src='__PUBLIC__/admin/js/jquery.uploadify.min.js'></script>
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#movie').attr("class","selected");
+        $('#movielist').removeAttr("class");
+        $('#addlist').attr("class","heading");
+    </script>
+
+<!-- 电影资源上传 -->
+      <!-- <script>
+        var img = '';
+        $('#file_upload').uploadify({
+            'swf'      : '__PUBLIC__/admin/css/uploadify.swf',
+            'uploader' : '{:U("Resource/addOk")}',
+            'buttonText' : '上传影片海报',
+            'onUploadSuccess' : function(file, data, response) {
+            $('#hic').val(data);
+            img = "<img style='height:151px;width:132px;' src='__PUBLIC__/Upload/images/"+data+"'id='hic'>";
+            $('#imgs').html(img);
+            $('#images').val(data);
+            }
+        });
+         </script>  -->
+</block>

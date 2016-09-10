@@ -1,0 +1,122 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/review/review" class="heading" id="reviewlist" >影评列表管理</a></li>
+        <li><a href="__MODULE__/replies/replies" id="replieslist">影评回复管理</a></li>
+        <li><a href="__MODULE__/questions/questions" id="questionslist">问题列表管理</a></li>
+        <li><a href="__MODULE__/answers/answers" id="answerslist">回答列表管理</a></li>
+    </ul>
+</block>
+<block name="content">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/replies/replies.css">
+
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左边框 -->
+        <div class="left-sidebar" >  
+
+<!-- 左边内容 -->
+            <div class="row-fluid">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="title">影评回复列表</div>
+                    </div>
+                    <div class="widget-body">
+
+<!-- 用户列表表格 -->
+                        <table class="table table-condensed table-striped table-bordered table-hover no-margin" id="table">
+
+<!-- 表头 -->
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">
+                                        选择
+                                    </th>
+                                    <th style="width:10%">
+                                        ID
+                                    </th>
+                                    <th style="width:15%" class="hidden-phone">
+                                        用户名称
+                                    </th>
+                                    <th style="width:20%" class="hidden-phone">
+                                        回复的影评
+                                    </th>
+                                    <th style="width:40%" class="hidden-phone">
+                                        影评回复
+                                    </th>
+                                    <th style="width:15%" class="hidden-phone">
+                                        发表时间
+                                    </th>
+                                    <th style="width:10%" class="hidden-phone">
+                                        操作
+                                    </th>
+                                </tr>
+                            </thead>
+
+<!-- 表格主体内容 -->
+                            <tbody>
+                                <foreach name="replies" item="rep">
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" class="no-margin" />
+                                        </td>
+                                        <td class="hidden-phone">
+                                            {$rep.id}
+                                        </td>  
+                                        <td class="hidden-phone">
+                                            {$rep.users}
+                                        </td>
+                                        <td class="hidden-phone" id="td">
+                                            {$rep.title}
+                                        </td>
+                                        <td class="hidden-phone">
+                                            {$rep.content}
+                                        </td>
+                                        <td class="hidden-phone">
+                                            {$rep.addtime}
+                                        </td>
+                                        <td class="hidden-phone">
+                                            <div class="btn-group">
+                                                <button data-toggle="dropdown" class="btn btn-mini dropdown-toggle">
+                                                    操作
+                                                <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    </li>
+                                                    <li>
+                                                        <a href="__CONTROLLER__/delreplie/id/{$rep.id}">删除</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                          </td>  
+                                      </tr>
+                                    </foreach>
+                               </tbody>   
+                             </table>
+                         </div>
+                    <div class="manu pagination widget-body">{$page}</div>
+                    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css" />
+                    <link rel="stylesheet" href="__PUBLIC__/admin/css/page.css" />
+                    </div>
+                </div>
+             </div>
+
+<!-- 右侧搜索部分 -->
+                <div class="right-sidebar" id="form">  
+                    <input type="text" placeholder="Email" class="search-query"style="width:150px">
+                </div>
+            </div>
+</block>
+
+<!-- JS控制导航 -->
+<block name="script">
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#review').attr("class","selected");
+        $('#reviewlist').removeAttr("class");
+        $('#replieslist').attr("class","heading");
+    </script>
+</block>

@@ -1,0 +1,188 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/Resource/showList" >影片资源列表</a></li>
+        <li><a href="__MODULE__/Resource/add">添加影片资源</a></li>
+        <!-- <li><a href="__MODULE__/classes/classes">电影分类管理</a></li> -->
+        <li><a href="__MODULE__/Resource/trash"class="heading">回收站</a></li>
+    </ul>
+</block>
+<block name="content">
+
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左边框 -->
+        <div class="left-sidebar" >  
+
+<!-- 左边内容 -->
+            <div class="row-fluid">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="title">回收站资源列表</div>
+                    </div>
+                    <div class="widget-body">
+
+<!-- 用户列表表格 -->
+                        <table class="table table-condensed table-striped table-bordered table-hover no-margin" id="table">
+
+<!-- 表头 -->
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">   
+                                    </th>
+                                    <th style="width:5%">
+                                        ID
+                                    </th>
+                                    <th style="width:17%" class="hidden-phone">
+                                        影片资源名称
+                                    </th>
+                                    <!-- <th style="width:10%" class="hidden-phone">
+                                                               类型
+                                                           </th>
+                                                            <th style="width:7%" class="hidden-phone">
+                                                               国家
+                                                           </th>            -->                       
+                                    <th style="width:8%" class="hidden-phone">
+                                        上传用户
+                                    </th>
+                                    <!-- <th style="width:7%" class="hidden-phone">
+                                        评分
+                                    </th> -->
+                                    <th style="width:30%" class="hidden-phone">
+                                        资源路径
+                                    </th>
+                                    <th style="width:10%" class="hidden-phone">
+                                        添加时间
+                                    </th>
+                                    <th style="width:5%" class="hidden-phone">
+                                        操作
+                                    </th>
+                                </tr>
+                            </thead>
+
+<!-- 表格主体内容 -->       <form action="__CONTROLLER__/allTrash" method="post">
+                            <tbody>
+                                <foreach name="resource" item="vo">
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="no-margin" name="rids[]"value="{$vo.rid}" />
+                                    </td>
+                                    <td class="hidden-phone">
+                                         {$vo.rid}
+                                    </td>  
+                                    <td class="hidden-phone">
+                                         <span class="label label label-info">
+                                            {$vo.rname}
+                                        </span>
+                                    </td>
+                                   <!--  <td class="hidden-phone">
+                                           {$vo.type}
+                                   </td>
+                                   <td class="hidden-phone" id="td">
+                                           {$vo.country}                      
+                                   </td> -->
+                                    <td class="hidden-phone">
+                                            {$vo.uname}
+                                    </td>
+                                    <!-- <td class="hidden-phone">
+                                            {$vo.score}
+                                    </td> -->
+                                    <td class="hidden-phone">
+                                            {$vo.rpath}
+                                    </td>   
+                                    <td class="hidden-phone">
+                                        {$vo.addtime|date="Y-m-d",###}
+                                    </td>
+                                    <td class="hidden-phone">
+                                        <div class="btn-group">
+                                            <button data-toggle="dropdown" class="btn btn-mini dropdown-toggle">
+                                                操作
+                                            <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="__CONTROLLER__/edit/rid/{$vo.rid}">查看或修改影片详情</a>
+                                                </li>
+                                                <li>
+                                                    <a href="__CONTROLLER__/recover/rid/{$vo.rid}">还原</a>
+                                                </li>
+                                                <li>
+                                                    <a href="__CONTROLLER__/delete/rid/{$vo.rid}">彻底删除</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </foreach>
+                                </tbody>
+                            </table>
+                        </div>
+                         <div class="pagination widget-body">{$page}</div>
+                        <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+                    </div>
+                </div>
+            </div>
+
+<!-- 右侧搜索部分 -->
+        <div class="right-sidebar" id="form">
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <a href="#" class="btn btn-info">
+                        <i class=" icon-white icon-headphones"></i>
+                    </a>
+                    <a href="javascript:void(0)" onclick="allSelect()"  class="btn btn-default">
+                        <i class="icon-thumb" aria-hidden="true" data-icon="&#xe1d;"></i>
+                        全选
+                    </a>
+                    <a href="javascript:void(0)" onclick="noSelect()"  class="btn btn-default">
+                        <i class=" icon-share-alt"></i>
+                        反选
+                    </a>
+                </div>
+
+<!-- 批量删除 -->
+                <div class="btn-group">
+                    <button type="submit" class="btn btn-inverse" name="method" value="allDel">
+                        <i class="icon-white icon-trash"></i>
+                    </button>
+                </div>
+            </div>  
+            <hr class="hr-stylish-1">
+
+<!-- 批量还原 -->
+            <div class="wrapper">  
+                <div class="btn-group"style="margin-left:70px">
+                    <button type="submit" class="btn btn-info" name="method" value="allRecover">
+                        <i class="icon-white icon-trash"></i>恢复还原
+                    </button>
+                </div>
+            </div> 
+            </form>
+        </div>
+    </div>
+</block>
+<block name="script">
+    <script type="text/javascript">
+        $('#index').eq(0).removeAttr("class");  
+        $('#movie').attr("class","selected");
+
+// 全选
+        function allSelect(){
+            if($('td input').attr("checked")){
+                $('td input').attr("checked",false);
+            }else{
+                $('td input').attr("checked",true);
+            }
+        }
+
+// 反选
+        function noSelect(){
+            $("td input").each(function () {  
+                    $(this).attr("checked", !$(this).attr("checked"));  
+                });              
+        }
+    </script>
+</block>

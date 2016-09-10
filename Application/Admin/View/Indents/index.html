@@ -1,0 +1,95 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/users/" class="heading">订单列表</a></li>
+        <li><a href="__MODULE__/users/add">添加订单</a></li>
+    </ul>
+</block>
+<block name="content">
+
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左边框 -->
+        <div class="left-sidebar" >  
+
+<!-- 左边内容 -->
+            <div class="row-fluid">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="title">订单列表</div>
+                    </div>
+                    <div class="widget-body">
+
+<!-- 用户列表表格 -->
+                        <table class="table table-condensed table-striped table-bordered table-hover no-margin" id="table">
+
+<!-- 表头 -->
+                            <thead>
+                                <tr>
+                                    <th style="width:1%"></th>
+                                    <th style="width:8%" class="hidden-phone">订单号</th>
+                                    <th style="width:10%" class="hidden-phone">电影名称</th>
+                                    <th style="width:12%" class="hidden-phone">开场时间</th>
+                                    <th style="width:8%" class="hidden-phone">购买用户</th>
+                                    <th style="width:10%" class="hidden-phone">联系电话</th>
+                                    <th style="width:10%" class="hidden-phone">座位</th>
+                                    <th style="width:5%" class="hidden-phone">票数</th> 
+                                    <th style="width:5%" class="hidden-phone">总价</th>
+                                    <th style="width:9%" class="hidden-phone">取票确认码</th>
+                                    <th style="width:10%" class="hidden-phone">下单时间</th>
+                                    <th style="width:6%" class="hidden-phone">状态</th>
+                                </tr>
+                            </thead>
+
+<!-- 表格主体内容 -->
+                            <tbody>
+                            <volist name="indents" id="indent">
+                                <tr>
+                                    <td><input type="checkbox" class="no-margin" /></td>
+                                    <td class="hidden-phone">{$indent.orderid}</td>
+                                    <td class="hidden-phone" id="td">
+                                        <span class="label label label-info">{$indent.moviename}</span>
+                                    </td>
+                                    <td class="hidden-phone">{$indent.starttime}</td>
+                                    <td class="hidden-phone">{$indent.username}</td>
+                                    <td class="hidden-phone">{$indent.tel}</td>
+                                    <td class="hidden-phone">{$indent.seats}</td>
+                                    <td class="hidden-phone">{$indent.tickets}</td>
+                                    <td class="hidden-phone">{$indent['price']*$indent['tickets']}</td>
+                                    <td class="hidden-phone">{$indent.sureid}</td>
+                                    <td class="hidden-phone">{$indent.createtime}</td>
+                                    <td class="hidden-phone">
+                                        <if condition="time() lt $indent['starttime']">
+                                            未使用
+                                            <else />
+                                            已使用
+                                        </if>
+                                    </td> 
+                                </tr>
+                            </volist>
+                            </tbody>   
+                        </table>
+                    </div>
+
+<!--分页设置开始-->
+                    <div class="manu pagination widget-body">{$page}</div>
+                    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css" />
+                    <link rel="stylesheet" href="__PUBLIC__/admin/css/page.css" />
+
+<!--分页设置结束-->
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+
+<!-- JS控制导航 -->
+<block name="script">
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#indents').attr("class","selected");
+    </script>
+</block>

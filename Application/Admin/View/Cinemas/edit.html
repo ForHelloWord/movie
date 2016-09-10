@@ -1,0 +1,194 @@
+<extend name="Public:base" />
+
+<!-- 副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/Cinemas" class="heading" id="movielist">影院列表</a></li>
+        <li><a href="__MODULE__/Cinemas/add" id="addlist">添加影院信息</a></li>
+    </ul>
+</block>
+
+<!-- 主体内容 -->
+<block name="content">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/uploadify.css">
+    <div class="dashboard-wrapper">
+
+<!-- 左侧框架 -->
+        <div class="left-sidebar"> 
+            <div class="row-fluid">
+                <div class="widget no-margin">
+                    <div class="widget-header">
+                        <div class="title">添加影院信息</div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+
+<!-- 海报 -->
+                                <div class="span3">
+                                    <div class="thumbnail" style="text-align:center;height:156px;width:132px;padding:30px">
+                                        <div id="imgs">
+                                            <img src="__PUBLIC__/upload/images/{$cinema.image}" style='height:151px;width:132px;'>
+                                        </div>
+                                        <div>
+                                            <input id="file_upload" name="file_upload" type="file" multiple="true" value="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    #SWFUpload_0{position: absolute; 
+                                        z-index: 1; 
+                                        left: 0px;
+                                    }
+                                    .file_upload{
+                                        margin-left: 30px
+
+                                    }
+
+                                </style>
+
+<!-- 添加用户表单 -->
+                                <div class="span9">
+                                    <form class="form-horizontal" method="post" action="__CONTROLLER__/update/id/{$cinema.id}">
+                                        <h5>填写影院信息</h5><hr>
+                                        <div class="control-group">
+                                            <label class="control-label">影院名称</label>
+                                            <div class="controls">
+                                                <input type="text" name="cinema" value="{$cinema.cinema}" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">影厅介绍</label>
+                                            <div class="controls">
+                                                <input type="text"name="hallintro" value="{$cinema.hallintro}" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">联系电话</label>
+                                            <div class="controls">      
+                                                <input type="text"name="tel" value="{$cinema.tel}" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">网址</label>
+                                            <div class="controls">
+                                                <input type="text"name="website" value="{$cinema.website}" required>
+                                            </div>
+                                        </div>
+                                         <div class="control-group">
+                                            <label class="control-label">乘车</label>
+                                            <div class="controls">
+                                                <input type="text" name="bycar" value="{$cinema.bycar}" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">营业时间</label>
+                                            <div class="controls">
+                                                <input type="text" name="showtime" value="{$cinema.showtime}" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">地址</label>
+                                            <div class="controls" id="address"> 
+                                                {$cinema.cityname}{$cinema.district}       
+                                                
+                                            </div>
+                                            <div class="controls">
+                                                <input type="text" name="address" value="{$cinema.address}" >
+                                                 <input type="hidden" name="image" id="hic">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">介绍</label>
+                                            <div class="controls">
+                                                <textarea name="intro" value="" required>{$cinema.intro}</textarea> 
+                                            </div>
+                                        </div>
+                                        <div class="controls" style="margin-top:50px;">
+                                            <button type="submit" class="btn btn-info">保存</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
+</blcok>
+
+<!-- js控制导航 -->
+<block name="script">
+    <script src='__PUBLIC__/admin/js/jquery.js'></script>
+    <script src='__PUBLIC__/admin/js/jquery.uploadify.min.js'></script>
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#cinemas').attr("class","selected");
+        $('#movielist').removeAttr("class");
+        $('#addlist').attr("class","heading");
+    </script>
+
+<!-- 电影海报上传 -->
+    <script>
+        var img = '';
+        $('#file_upload').uploadify({
+                'swf'      : '__PUBLIC__/admin/css/uploadify.swf',
+                'uploader' : '{:U("Movie/upload")}',
+                'buttonText' : '上传电影海报',
+                'onUploadSuccess' : function(file, data, response) {
+                $('#hic').val(data);
+                 img = "<img style='height:151px;width:132px;' src='__PUBLIC__/upload/images/"+data+"'id='hic'>";
+                $('#imgs').html(img);
+                $('#images').val(data);
+            }
+        });
+
+$(function(){
+    $.post("__CONTROLLER__/address",function(data){
+        var province="<option class='province' value='0' selected>省份</option>";
+        $.each(data,function(i,j){
+                province += "<option class='province' value='"+j.province_id+"'>"+j.province_name+"</option>";
+            });
+            $("#province").html(province);
+            $("#district").html("<option class='district' value='0' selected>区县</option>");
+            $("#city").html("<option class='city' value='0' selected>城市</option>");
+    },'json');
+        if($(this).val()==0){
+            $("#district").html("<option class='district' value='0' selected>区县</option>");
+            $("#city").html("<option class='city' value='0' selected>城市</option>");
+        }
+});
+
+$("#province").click(function(){
+    var pid = $(this).val();
+    if(pid==0){
+        $("#district").html("<option class='district' value='0' selected>区县</option>");
+        $("#city").html("<option class='city' value='0' selected>城市</option>");
+    }else{
+        $.post("__CONTROLLER__/address",{'pid':pid} ,function(data){     
+            var city="<option class='province' value='0' selected>城市</option>";
+            $.each(data,function(i,j){
+                city += "<option class='city' value='"+j.city_id+"'>"+j.city_name+"</option>";
+            });
+            $("#city").html(city);
+        },'json');
+        $("#district").html("<option class='district' value='0' selected>区县</option>");
+    }
+});
+
+$("#city").click(function(){
+    var cid = $(this).val();
+    if(cid==0){
+        $("#district").html("<option class='district' value='0' selected>区县</option>");
+    }else{
+        $.post("__CONTROLLER__/address",{'cid':cid},function(data){
+            var district="<option class='district' value='0' selected>区县</option>";          
+            $.each(data,function(i,j){
+                district += "<option class='city' value='"+j.district_id+"'>"+j.district_name+"</option>";
+            })
+            $("#district").html(district);
+        },'json');
+    }
+})
+    </script>
+</block>

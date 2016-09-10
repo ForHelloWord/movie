@@ -1,0 +1,35 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/review/review" class="heading" id="reviewlist" >影评列表管理</a></li>
+        <li><a href="__MODULE__/replies/replies" id="replieslist">影评回复管理</a></li>
+        <li><a href="__MODULE__/questions/questions" id="questionslist">问题列表管理</a></li>
+        <li><a href="__MODULE__/answers/answers" id="answerslist">回答列表管理</a></li>
+        <li><a href="__MODULE__/grades/grades" id="gradeslist">评分列表管理</a></li>
+        <li><a href="__MODULE__/wmovies/wmovies" id="wmovieslist">想看管理</a></li>
+    </ul>
+</block>
+<block name="content">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/questions/add.css">
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+        <div class="btn btn-info"><h1>您想修改以下内容</h1></div>
+            <div class="form-set">
+                <form action="" method="post">
+
+                    电影名称:<input type="text"><br />
+                    问题      :<input type="text">
+                </form>
+            </div>
+    </div>
+</block>
+
+<!-- JS控制导航 -->
+<block name="script">
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#review').attr("class","selected");
+    </script>
+</block>

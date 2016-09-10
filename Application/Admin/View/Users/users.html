@@ -1,0 +1,211 @@
+<extend name="Public:base" />
+
+<!-- 添加副导航 -->
+<block name="sub-nav">
+    <ul>
+        <li><a href="__MODULE__/users/users" class="heading">用户列表</a></li>
+        <li><a href="__MODULE__/users/add">添加用户</a></li>
+    </ul>
+</block>
+<block name="content">
+
+<!-- 内容主体 -->
+    <div class="dashboard-wrapper">
+
+<!-- 左边框 -->
+        <div class="left-sidebar" >  
+
+<!-- 左边内容 -->
+            <div class="row-fluid">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="title">用户列表</div>
+                    </div>
+                    <div class="widget-body">
+
+<!-- 用户列表表格 -->
+
+                        <table class="table table-condensed table-striped table-bordered table-hover no-margin" id="table">
+
+<!-- 表头 -->
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">
+                                        
+                                    </th>
+                                    <th style="width:5%">
+                                        ID
+                                    </th>
+                                    <th style="width:20%" class="hidden-phone">
+                                        Email
+                                    </th>
+                                    <th style="width:10%" class="hidden-phone">
+                                        用户组
+                                    </th>
+                                     <th style="width:10%" class="hidden-phone">
+                                        名号
+                                    </th>                                  
+                                    <th style="width:10%" class="hidden-phone">
+                                        常住地
+                                    </th>
+                                    <th style="width:10%" class="hidden-phone">
+                                        注册时间
+                                    </th>
+                                    <th style="width:10%" class="hidden-phone">
+                                        操作
+                                    </th>
+                                </tr>
+                            </thead>
+
+<!-- 表格主体内容 -->
+                            <tbody id="tbody">
+                            <foreach name="users" item="vo">
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="no-margin" />
+                                    </td>
+                                    <td class="hidden-phone">
+                                         {$vo.id}
+                                    </td>  
+                                    <td class="hidden-phone">
+                                         <span class="label label label-info">
+                                        {$vo.email}
+                                        </span>
+                                    </td>
+                                    <td class="hidden-phone">
+                                    <switch name="vo.level">
+                                        <case value="1">管理员</case>
+                                        <case value="2">商家</case>
+                                        <case value="3">普通会员</case>
+                                        <default />普通会员
+                                    </switch>
+                                    </td>
+                                    <td class="hidden-phone" id="td">
+                                        {$vo.username}                                    
+                                    </td>
+                                    <td class="hidden-phone">
+                                        {$vo.area}
+                                    </td> 
+                                    <td class="hidden-phone">
+                                        {$vo.regtime|date="Y-m-d",###}
+                                    </td>
+                                
+                                    <td class="hidden-phone">
+                                        <div class="btn-group">
+                                            <button data-toggle="dropdown" class="btn btn-mini dropdown-toggle">
+                                                操作
+                                            <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="__CONTROLLER__/edit/id/{$vo.id}"> 修改</a>
+                                                </li>
+                                                <li>
+                                                    <a href="__CONTROLLER__/del/id/{$vo.id}">删除</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </foreach>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="manu pagination widget-body">{$page}</div>
+                        <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+                        <link rel="stylesheet" href="__PUBLIC__/admin/css/page.css">
+                    </div>
+
+                </div>
+            </div>
+
+<!-- 右侧搜索部分 -->
+                <div class="right-sidebar" id="form">  
+                    <input type="text" placeholder="Email" class="search-query"style="width:150px">
+                </div>
+            </div>
+</block>
+
+<!-- JS控制导航 -->
+<block name="script">
+    <script type="text/javascript">
+        $('#index').removeAttr("class");
+        $('#users').attr("class","selected");
+        var CONTROLLER="__CONTROLLER__";
+        function getLocalTime(nS) {     
+        return new Date(parseInt(nS) * 1000).toLocaleString().replace(/年|月/g,"-").replace(/日/g, " ").replace("上午"," ").replace("下午"," ").substr(0,10);  
+                        
+            }     
+        $('.search-query').keyup(function(){
+            var val=$('.search-query').val();
+            var email={'email':val};
+            
+            $.post(CONTROLLER+'/search',email,function(email){
+            
+                $('.pagination').remove();
+                if(!email){
+                    $("tbody tr").remove();    
+                }else{
+                var str="";
+                
+                $.each(email,function(i,j){
+                    var level=j.level;
+                    str+="<tr><td><input type=";
+                    str+="'checkbox'"; 
+                    str+="class=";
+                    str+="'no-margin'";
+                    str+="></td><td class=";
+                    str+="'hidden-phone'";
+                    str+=">"+j.id+"</td><td class=";
+                    str+="'hidden-phone'";
+                    str+="><span class=";
+                    str+="'label label label-info'";
+                    str+=">"+j.email+"</span>";
+                    str+="</td><td class=";
+                    str+="'hidden-phone'";
+                    str+=">";
+                    switch (level)
+                    {  
+                        case "1":
+                            str +="管理员";
+                        break;
+                        case "3":
+                            str+="普通会员";
+                        break;
+                    }
+
+                    str+="</td><td class=";
+                    str+= "'hidden-phone'";
+                    str+= "id=";
+                    str+="'td'";
+                    str+=">"+j.username+"</td><td class=";
+                    str+="'hidden-phone'";
+                    str+=">"+j.area+"</td><td class=";
+                    str+="'hidden-phone'";
+                    str+=">"+getLocalTime(j.regtime);
+                    str+="</td><td class=";
+                    str+="'hidden-phone'";
+                    str+="><div class=";
+                    str+="'btn-group'";
+                    str+="><button data-toggle=";
+                    str+="'dropdown'";
+                    str+= "class=";
+                    str+="'btn btn-mini dropdown-toggle'";
+                    str+=">操作<span class=";
+                    str+="'caret'";
+                    str+="></span></button><ul class=";
+                    str+="'dropdown-menu'";
+                    str+="><li><a href=";
+                    str+="'__CONTROLLER__/edit/id/"+j.id+"'";
+                    str+="> 修改</a></li><li><a href=";
+                    str+="'__CONTROLLER__/del/id/"+j.id+"'";
+                    str+=">删除</a></li></ul></div></td></tr>";
+                }) 
+                                
+                             $("tbody").html(str);}
+                        },"json");
+
+
+        }) 
+    </script>
+</block>

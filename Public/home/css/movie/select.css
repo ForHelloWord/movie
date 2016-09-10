@@ -1,0 +1,117 @@
+/*标签框*/
+#tags{
+	width:595px;
+	height:65px;
+	margin-top:15px;
+}
+
+/*已经选定的标签*/
+.custom-btn {
+    border-radius:2px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 3px 5px 0;
+    padding: 1px 10px;
+    height:25px;
+    background:#4B8CCB;
+    float:left;
+}
+
+/*为选定的标签*/
+.customs-btn {
+    border-radius:2px;
+    color: #666;
+    font-size: 14px;
+    margin: 0 3px 5px 0;
+    padding: 1px 10px;
+    height:25px;
+    float:left;
+}
+
+/*排序框*/
+#tools{
+	width:595px;
+	height:55px;
+	clear:both;	
+}
+
+/*排序条件*/
+.sort{
+	padding-top:15px;
+	overflow:hidden;
+	float:left;
+	margin-right:25px;
+	color:#666;
+	font-size:13px;
+}
+
+/*想看的电影*/
+.want{
+	padding-top:15px;
+	float:right;
+	color:#666;
+	font-size:13px;
+}
+
+/*内容*/
+#content{
+	clear:both;
+	width:595px;
+	min-height:255px;
+	float:left;
+}
+.movies{
+	width:140px;
+	height:255px;
+	margin-right:8px;
+	float:left;
+}
+
+/*电影图片*/
+.imgs{
+	width:140px;
+	height:203px;
+	float:left;
+}
+
+/*电影名*/
+.m_name{
+	width:140px;
+	height:47px;
+	text-align:center;
+	float:left;
+	color:#2A73A6;
+}
+
+/*评分*/
+.m_name strong{
+	color:#E82100;
+	font-weight:normal;
+}
+
+/*加载更多*/
+#moreload{
+	width:595px;
+	height:35px;
+	clear:both;
+	text-align:center;
+	font-size:14px;
+	color:#2A73A6;
+	background:#f7f7f7;
+	border:1px solid #fff;
+
+}
+/*右侧方图的修饰*/
+#rgt-img{
+	margin-top:15px;
+}
+
+/*用户客户端图片修饰*/
+#rgt-icon{
+	margin-top:45px;	
+}
+#tags a:hover .customs-btn {
+    background: none repeat scroll 0 0 #ededed;
+    color: #666;
+    text-decoration: none;
+}

@@ -1,0 +1,1416 @@
+[ 2016-09-05T00:33:40+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-09-05T00:33:42+08:00 ] 127.0.0.1 /index.php/Admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-09-05T00:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-09-05T00:33:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-09-05T00:35:56+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-09-05T00:35:59+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-09-05T00:36:32+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-09-05T08:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-09-05T08:55:48+08:00 ] 127.0.0.1 /index.php/Admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-09-05T08:56:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-09-05T08:56:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-09-05T08:56:03+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-09-05T08:56:05+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-09-05T08:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-09-05T08:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-09-05T09:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-09-05T09:04:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-09-05T09:07:02+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 1146:Table 'douban.db_' doesn't exist
+ [ SQL语句 ] : INSERT INTO `db_` (`rname`,`rpath`,`mid`,`uid`,`addtime`) VALUES ('[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','F:/1wamp/movie/Public/Upload/2016-09-05/[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','1','1008','1473037621')
+
+[ 2016-09-05T09:08:12+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` (`rname`,`rpath`,`mid`,`uid`,`addtime`) VALUES ('[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','F:/1wamp/movie/Public/Upload/2016-09-05/[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','1','1008','1473037691')
+
+[ 2016-09-05T09:10:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 1406:Data too long for column 'rname' at row 1
+ [ SQL语句 ] : INSERT INTO `resource` (`rname`,`rpath`,`mid`,`uid`,`addtime`) VALUES ('[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','F:/1wamp/movie/Public/Upload/2016-09-05/[慢播影院www.manbo.com]死亡诗社BD国英双语双字.mkv','1','1008','1473037818')
+
+[ 2016-09-05T09:11:46+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-09-05T09:11:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-09-05T09:11:52+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-09-05T09:11:55+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-09-05T14:42:56+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-09-05T14:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-09-05T14:50:54+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-09-05T14:50:59+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-09-05T14:52:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-09-05T14:54:01+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-09-05T14:54:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-09-05T14:55:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-09-05T14:56:27+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-05T14:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-09-05T15:09:35+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-09-05T15:09:39+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-09-05T15:09:42+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-09-05T15:10:21+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-09-05T15:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-09-05T15:16:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-05T15:16:42+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-09-05T15:18:08+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-09-05T15:26:47+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T15:26:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T15:26:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T15:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-09-05T15:27:06+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-09-05T15:27:07+08:00 ] 127.0.0.1 /index.php/Admin/Resource/trash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-09-05T15:28:02+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-09-05T15:28:04+08:00 ] 127.0.0.1 /index.php/Admin/Resource/trash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-09-05T15:28:15+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-09-05T15:28:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/trash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-09-05T15:28:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-09-05T15:55:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-09-05T16:13:04+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-09-05T16:13:11+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-09-05T18:21:10+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-09-05T18:21:22+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-09-05T18:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-09-05T18:21:26+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-09-05T18:23:11+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-09-05T18:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-09-05T18:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-09-05T18:24:35+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-09-05T18:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-05T18:24:56+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-09-05T18:25:02+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-09-05T18:25:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-09-05T18:25:33+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-09-05T18:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-09-05T18:26:13+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-09-05T18:26:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-09-05T18:26:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-09-05T18:26:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-09-05T18:26:54+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-09-05T18:26:56+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-09-05T18:28:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-09-05T18:28:21+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-09-05T18:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-09-05T18:28:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-09-05T18:28:41+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-09-05T18:28:44+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-09-05T18:28:55+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-09-05T18:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-09-05T18:29:02+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-09-05T18:29:13+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-09-05T18:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-09-05T18:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-09-05T18:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-09-05T18:30:27+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-09-05T18:30:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-09-05T18:30:41+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-09-05T18:36:29+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-09-05T18:36:34+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-09-05T18:38:05+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-09-05T18:38:07+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-09-05T18:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+
+[ 2016-09-05T18:40:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-09-05T18:40:53+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-09-05T18:43:16+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-09-05T18:43:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-09-05T18:43:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-09-05T18:43:22+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-09-05T18:44:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-09-05T18:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-09-05T18:44:29+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-09-05T18:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-09-05T18:44:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-09-05T18:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-09-05T18:50:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-09-05T18:50:31+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-09-05T18:50:35+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-09-05T18:50:41+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-09-05T18:51:20+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-09-05T18:51:22+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-09-05T18:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-09-05T18:51:44+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-09-05T18:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-09-05T18:53:55+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-09-05T18:54:53+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-09-05T19:00:21+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-09-05T19:00:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-05T19:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-09-05T19:01:09+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-09-05T19:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Resource/addOk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-09-05T19:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-09-05T19:01:41+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-09-05T19:01:47+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-09-05T19:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-09-05T19:02:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-09-05T19:02:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-09-05T19:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-09-05T19:02:47+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:02:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:02:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:02:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:04:22+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-09-05T19:04:27+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-09-05T19:04:48+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-09-05T19:04:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-09-05T19:20:18+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-09-05T19:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-09-05T19:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-09-05T19:20:27+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0154s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-09-05T19:20:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0155s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-09-05T19:20:29+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-05T19:20:31+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-09-05T19:21:39+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-09-05T19:21:42+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-05T19:21:44+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-09-05T19:21:48+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-09-05T19:21:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-09-05T19:21:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-09-05T19:22:00+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-09-05T19:22:01+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0165s ]
+NOTIC: [8] Undefined index: rname F:\1wamp\movie\Application\Admin\Controller\ResourceController.class.php 第 66 行.
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-09-05T19:22:03+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-09-05T19:22:06+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-09-05T19:22:09+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-09-05T19:25:07+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-09-05T19:25:10+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-09-05T19:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%电锯%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-09-05T19:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%电%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-09-05T19:25:25+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-09-05T19:25:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-09-05T19:25:31+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%拳击%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-09-05T19:25:32+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%拳击%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-09-05T19:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%拳%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-09-05T19:25:37+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-09-05T19:26:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%拳击%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-09-05T19:26:45+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-09-05T19:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-09-05T19:27:50+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-09-05T19:27:52+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-09-05T19:27:56+08:00 ] 127.0.0.1 /index.php/Admin/Resource/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:index
+
+[ 2016-09-05T19:28:02+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-09-05T19:28:05+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-09-05T19:28:16+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%盗梦%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-09-05T19:28:29+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%盗%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-09-05T19:28:30+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-09-05T19:28:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-09-05T19:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%盗梦%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-09-05T19:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%盗%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-09-05T19:29:18+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-09-05T19:32:28+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%星际%' and trash=0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-09-05T19:32:33+08:00 ] 127.0.0.1 /index.php/Admin/Resource/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `resource` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `resource` WHERE ( rname like '%%' and trash=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-09-05T19:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-09-05T19:32:43+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-09-05T19:32:46+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-09-05T19:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `uname` FROM `resource` WHERE ( uid= ) 
+
+[ 2016-09-05T19:49:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-09-05T19:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-09-05T19:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-09-05T19:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-09-05T19:56:23+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-09-05T19:56:32+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-09-05T19:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-09-05T19:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-09-05T19:57:52+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-09-05T19:57:53+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-09-05T20:09:04+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-09-05T20:11:53+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-09-05T20:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-09-05T20:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-09-05T20:12:53+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-09-05T20:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-09-05T20:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-09-05T20:18:00+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-09-05T20:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-09-05T20:19:47+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-09-05T20:20:09+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-09-05T20:20:30+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-09-05T20:20:33+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-09-05T20:20:35+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-09-05T20:23:26+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-09-05T20:24:06+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-09-05T20:24:08+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-09-05T20:24:15+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-09-05T20:24:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-09-05T20:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-09-05T20:24:51+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-09-05T20:24:58+08:00 ] 127.0.0.1 /index.php/Admin/Resource/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 非法操作:update
+
+[ 2016-09-05T20:27:04+08:00 ] 127.0.0.1 /index.php/Admin/Resource/edit/rid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-09-05T20:27:17+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-09-05T20:31:55+08:00 ] 127.0.0.1 /index.php/Admin/Resource/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-09-05T20:31:59+08:00 ] 127.0.0.1 /index.php/Admin/Resource/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+

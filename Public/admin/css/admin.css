@@ -1,0 +1,35 @@
+.prev{
+	color:#666;	
+}
+.next{
+	margin-left:15px;
+	color:#666;
+}
+.num{
+	
+	margin-left:15px;
+	color:#666;
+}
+.current{
+	margin-left:15px;
+	color:#666;
+}
+.first{
+
+}
+.end{
+	
+}
+.rows{
+
+}
+.pagination{
+	height:25px;
+	width:auto;
+	text-align:center;
+	clear:both;
+
+	margin:0px;
+	font-size:14px;
+	background:#ededed;
+}

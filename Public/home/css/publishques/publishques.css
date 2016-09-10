@@ -1,0 +1,23 @@
+#publish{
+	margin-top:50px;
+}
+#acontent{
+	margin-top:20px;
+}
+#issue{
+	float:right;
+	margin-bottom:20px;
+}
+#issue a:last-child{
+	height:30px;
+	width:80px;
+}
+#issue a:first-child{
+	margin:40px 10px auto auto;
+
+}
+.right-content{
+	font-size:13px;
+	color:#adadad;
+	margin:10px auto 10px auto;
+}

@@ -1,0 +1,105 @@
+
+/*所以a标签的修饰*/
+a {
+	color:#428BCA;
+    cursor: pointer;
+ 
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+a:visited {
+    color: #27a;
+    text-decoration: none;
+}
+a:hover {
+    background: none repeat scroll 0 0 #37a;
+    color: #fff;
+    text-decoration: none;
+}
+a:active {
+    background: none repeat scroll 0 0 #f93;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*分类浏览的修饰*/
+.tag-classes{
+	height:30px;
+	width:595px;
+	margin-top:15px;
+	border-bottom:1px solid;
+	color:#898989;
+	clear:both;
+	font-size:12px;
+}
+.tag-classes p{
+	float:right;
+}
+
+/*四大分类修饰*/
+.tag-type{
+	height:37px;
+	width:595px;
+	margin-top:15px;
+	margin-bottom:5px;
+	clear:both;
+	color:#454545;
+	float:left;
+}
+.tag-type h4{
+	font-size:15px;
+}
+
+/*装标签的框*/
+.tag-box{
+	width:595px;
+	clear:both;
+	float:left;
+}
+
+/*标签修饰*/
+.tag{
+	width:148px;
+	height:28px;
+	float:left;
+	font-size:14px;
+}
+b{	
+	font-weight:normal;
+	font-size:normal;
+	color:#aaa;
+}
+
+/*右侧方图的修饰*/
+#rgt-img{
+	margin-top:15px;
+}
+
+/*用户客户端图片修饰*/
+#rgt-icon{
+	margin-top:45px;	
+}
+
+/*直达标签修饰*/
+#rgt-gettag{
+	width:312px;
+	margin-top:20px;
+	margin-bottom:17px;
+	clear:both;
+	color:#454545;
+}
+#rgt-gettag h4{
+	font-size:15px;
+	color:rgb(17,17,17);
+}
+#rgt-gettag+form input{
+	height:18px;
+	width:152px;
+	font-size:12px;
+}
+#rgt-gettag+form button{
+	height:22px;
+	font-size:12px;
+}

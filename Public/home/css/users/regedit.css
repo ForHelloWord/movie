@@ -1,0 +1,23 @@
+a {
+    color:#428BCA;
+    cursor: pointer;
+    font-size:13px;
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+a:visited {
+    color: #27a;
+    text-decoration: none;
+}
+ a:hover {
+    background: none repeat scroll 0 0 #37a;
+    color: #fff;
+    text-decoration: none;
+}
+ a:active {
+    background: none repeat scroll 0 0 #f93;
+    color: #fff;
+    text-decoration: none;
+}

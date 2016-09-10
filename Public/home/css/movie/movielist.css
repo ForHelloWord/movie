@@ -1,0 +1,175 @@
+
+/*所以a标签的修饰*/
+a {
+	color:#428BCA;
+    cursor: pointer;
+ 
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+a:visited {
+    color: #27a;
+    text-decoration: none;
+}
+a:hover {
+    background: none repeat scroll 0 0 #37a;
+    color: #fff;
+    text-decoration: none;
+}
+a:active {
+    background: none repeat scroll 0 0 #f93;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*排序条件的修饰*/
+.sort-method{
+    height:30px;
+    width:595px;
+    margin-top:15px;
+    color:#898989;
+    clear:both;
+    font-size:12px;
+}
+.sort-method span{
+    float:right;
+}
+
+/*主体内容框*/
+.list{
+    width:595px;
+    height:auto;
+    border-top:1px dashed #aaa;
+    clear:both;
+}
+
+/*电影图片*/
+.list-img{
+    width:100px;
+    height:132px;
+    float:left;
+    margin-top:12px;
+}
+
+/*右侧信息*/
+.list-right{
+    width:495px;
+    max-height:180px;
+    float:left;
+}
+
+/*电影标题*/
+.movie-title{
+    width:495px;
+    height:18px;
+    margin-top:15px;
+    margin-bottom:15px;
+    float:left;
+}
+
+/*电影信息*/
+.movie-content{
+    width:495px;
+    max-height:87px;
+    font-size:12px;
+    color:#666;
+    float:left;
+}
+.star{
+    cursor:pointer
+}
+/*评分部分*/
+.srating{
+    text-align:center;
+    line-height: 14px;
+    float:left;
+}
+
+.srating span {
+    color: #e82100;
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: top;
+    word-spacing: normal;
+}
+.allstar50, .allstar50, .allstar45, .allstar40, .allstar35, .allstar30, .allstar25, .allstar20, .allstar15, .allstar10, .allstar05 {
+    background: url("../../images/tickets/midstars.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 11px;
+    margin: 0 3px 7px 0;
+    overflow: hidden;
+    width: 55px;
+}
+.allstar50 {
+    background-position: 0 0;
+}
+.allstar45 {
+    background-position: 0 -11px;
+}
+.allstar40 {
+    background-position: 0 -22px;
+}
+.allstar35 {
+    background-position: 0 -33px;
+}
+.allstar30 {
+    background-position: 0 -44px;
+}
+.allstar25 {
+    background-position: 0 -55px;
+}
+.allstar20 {
+    background-position: 0 -66px;
+}
+.allstar15 {
+    background-position: 0 -77px;
+}
+.allstar10 {
+    background-position: 0 -88px;
+}
+.allstar05 {
+    background-position: 0 -99px;
+}
+
+/*右侧分类筛选*/
+.second_classes{
+    width:312px;
+    height:45px;
+    background:#F2F7F6;
+    line-height:45px;
+    padding-left:15px;
+}
+
+/*右侧方图的修饰*/
+#rgt-img{
+    margin-top:15px;
+}
+
+/*用户客户端图片修饰*/
+#rgt-icon{
+    margin-top:45px;    
+}
+
+/*直达标签修饰*/
+#rgt-gettag{
+    width:312px;
+    margin-top:20px;
+    margin-bottom:17px;
+    clear:both;
+    color:#454545;
+}
+#rgt-gettag h4{
+    font-size:15px;
+    color:rgb(17,17,17);
+}
+#rgt-gettag+form input{
+    height:18px;
+    width:152px;
+    font-size:12px;
+}
+#rgt-gettag+form button{
+    height:22px;
+    font-size:12px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+                慢播影院后台
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+
+<!-- JS引入 -->
+        <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+        <script src="__PUBLIC__/admin/js/bootstrap.js"></script>
+
+<!-- CSS引入 -->
+        <link href="__PUBLIC__/admin/icomoon/style.css" rel="stylesheet">
+        <link href="__PUBLIC__/admin/css/main.css" rel="stylesheet"> 
+        <link href="__PUBLIC__/admin/css/wysiwyg/bootstrap-wysihtml5.css" rel="stylesheet">
+        <link href="__PUBLIC__/admin/css/wysiwyg/wysiwyg-color.css" rel="stylesheet">
+    </head>
+<body>
+
+<!-- header头部分开始 -->
+    <header>
+
+<!-- logo图片 -->
+        <a href="#" class="logo">
+            <img src="__PUBLIC__/admin/img/logo.png" alt="logo" />
+        </a>
+
+<!-- 登录状态 -->
+        <div class="btn-group">
+            <button class="btn btn-primary">
+                {$user.username}
+            </button>
+            <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                <span class="caret">
+                </span>
+            </button>
+            <ul class="dropdown-menu pull-right">
+                <li>
+                    <a href="__APP__/Home">前台页面</a>
+                </li>
+                <li>
+                    <a href="__MODULE__/Login/logout">退出</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+<!-- header头结束 -->
+
+<!-- 主导航 -->
+    <div class="container-fluid">
+        <div class="dashboard-container">
+            <div class="top-nav">
+                <ul>
+                    <li>
+                        <a href="__MODULE__" class="selected" id="index">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe0a0;"></div>
+                            后台管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/users/users" id="users">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe0b8;"></div>
+                            用户管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/Resource/showList" id="movie">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe096;"></div>
+                            影片资源管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/indents/index" id="indents">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe0d2;"></div>
+                            订单管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/goods/index" id="goods">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe0a9;"></div>
+                            商品管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/cinemas/index" id="cinemas">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe14a;"></div>
+                            商家管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/review/review" id="review">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe00d;"></div>
+                            影评管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/Flinks/index"id="flinks">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe052;"></div>
+                            友情链接管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/confs/"id="confs">
+                            <div class="fs1" aria-hidden="true" data-icon="&#xe100;"></div>
+                            网站配置管理
+                        </a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+<!--副导航  -->
+        <div class="sub-nav">
+            <block name="sub-nav"></block>
+            <div class="btn-group pull-right"></div>
+        </div>
+        <div style="min-height:420px;overflow:hidden;clear:both">
+            <block name="content"></block>
+        </div>
+
+<!--页脚  -->
+    <footer >
+        <p>
+            &copy; baswaAdmin 2014
+        </p>
+    </footer>
+</body>
+    <block name="script"></block>
+</html>        

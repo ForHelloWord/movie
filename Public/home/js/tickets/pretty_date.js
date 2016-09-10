@@ -1,0 +1,1 @@
+function prettyDate(b){var e=b.split("-"),a=new Date(e[0],e[1]-1,e[2]);var c=["日","一","二","三","四","五","六"];return(a.getMonth()+1)+"月"+a.getDate()+"日周"+c[a.getDay()]};

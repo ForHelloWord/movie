@@ -1,0 +1,96 @@
+[ 2016-08-22T19:14:04+08:00 ] 127.0.0.1 /web/pluginRepository.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.334996s ]
+ERR: 无法加载模块:Web
+
+[ 2016-08-22T19:14:59+08:00 ] 127.0.0.1 /beacon.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Beacon
+
+[ 2016-08-22T19:15:00+08:00 ] 127.0.0.1 /translate_a/element.js?cb=window.google_tr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Translate_a
+
+[ 2016-08-22T19:15:07+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:16:35+08:00 ] 127.0.0.1 /translate_a/element.js?cb=window.google_tr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Translate_a
+
+[ 2016-08-22T19:16:37+08:00 ] 127.0.0.1 /b?c1=2&c2=6035715&rn=0.511082255281508&c7=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzc4Mjk0OA%3D%3D.html%3Fbeta%26&c3=&c4=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzc4Mjk0OA%3D%3D.html%3Fbeta%26&c5=&c6=&c10=01aqoveqjb1ks6&c15=&c16=&c8=%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%2003%E2%80%94%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E2%80%94%E3%80%8A%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%E3%80%8B%E2%80%94%E7%94%B5%E8%A7%86%E5%89%A7%E2%80%94%E4%BC%98%E9%85%B7%E7%BD%91%EF%BC%8C%E8%A7%86%E9%A2%91%E9%AB%98%E6%B8%85%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B&c9=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzc4Mjk0OA%3D%3D.html&cv=1.7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:16:43+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:18:12+08:00 ] 127.0.0.1 /translate_a/element.js?cb=window.google_tr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Translate_a
+
+[ 2016-08-22T19:18:13+08:00 ] 127.0.0.1 /b?c1=2&c2=6035715&rn=0.8610352000687271&c7=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg0NDkyNA%3D%3D.html%3Fbeta%26&c3=&c4=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg0NDkyNA%3D%3D.html%3Fbeta%26&c5=&c6=&c10=01aqoveqjb1ks6&c15=&c16=&c8=%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%2004%E2%80%94%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E2%80%94%E3%80%8A%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%E3%80%8B%E2%80%94%E7%94%B5%E8%A7%86%E5%89%A7%E2%80%94%E4%BC%98%E9%85%B7%E7%BD%91%EF%BC%8C%E8%A7%86%E9%A2%91%E9%AB%98%E6%B8%85%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B&c9=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg0NDkyNA%3D%3D.html&cv=1.7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:18:18+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:20:25+08:00 ] 127.0.0.1 /translate_a/element.js?cb=window.google_tr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Translate_a
+
+[ 2016-08-22T19:20:26+08:00 ] 127.0.0.1 /b?c1=2&c2=6035715&rn=0.6042209155857563&c7=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg2MDM4OA%3D%3D.html%3Fbeta%26&c3=&c4=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg2MDM4OA%3D%3D.html%3Fbeta%26&c5=&c6=&c10=01aqoveqjb1ks6&c15=&c16=&c8=%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%2005%E2%80%94%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E2%80%94%E3%80%8A%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%E3%80%8B%E2%80%94%E7%94%B5%E8%A7%86%E5%89%A7%E2%80%94%E4%BC%98%E9%85%B7%E7%BD%91%EF%BC%8C%E8%A7%86%E9%A2%91%E9%AB%98%E6%B8%85%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B&c9=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg2MDM4OA%3D%3D.html&cv=1.7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T19:20:33+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T20:43:29+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T20:43:47+08:00 ] 127.0.0.1 /b?c1=2&c2=6035715&rn=0.05094531364738941&c7=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg3NzQzMg%3D%3D.html%3Fbeta%26&c3=&c4=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg3NzQzMg%3D%3D.html%3Fbeta%26&c5=&c6=&c10=01aqoveqjb1ks6&c15=&c16=&c8=%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%2006%E2%80%94%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E2%80%94%E3%80%8A%E5%8C%BB%E9%A6%86%E7%AC%91%E4%BC%A02%E3%80%8B%E2%80%94%E7%94%B5%E8%A7%86%E5%89%A7%E2%80%94%E4%BC%98%E9%85%B7%E7%BD%91%EF%BC%8C%E8%A7%86%E9%A2%91%E9%AB%98%E6%B8%85%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B&c9=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMTY1Nzg3NzQzMg%3D%3D.html&cv=1.7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:B
+
+[ 2016-08-22T20:43:55+08:00 ] 127.0.0.1 /b?c1=1&c2=7293931&c3=&c4=&c5=&c6=97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:B
+
